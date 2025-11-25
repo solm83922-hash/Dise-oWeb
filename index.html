@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web 2</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9fa538dfd1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- BOTÓN IR ARRIBA -->
+    <div class="go-top">
+        <span><i class="fas fa-angle-up"></i></span>
+    </div>
+
+    <!-- HEADER - MENÚ -->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo-box">
+                <h1><a href="#">Diseño web</a></h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="list">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#testimonios">Blogs</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="img-header">
+            <div class="welcome">
+                <h1>Bienvenido a Diseño Web</h1>
+                <hr>
+                <p>Agencia de diseño y desarrollo web</p>
+                <button id="abajo">Ver abajo</button>
+            </div>
+        </div>
+        <div class="show-abajo"></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- ACERCA DE -->
+        <section class="acerca-de" id="nosotros">
+            <div class="info-container">
+                <h1>Acerca de nosotros</h1>
+                <p>Nuestra empresa se dedica al diseño web, un área enfocada en el desarrollo de interfaces digitales, como sitios y aplicaciones web usando HTML, CSS y JavaScript.</p>
+                <p>Creamos sitios web optimizados, efectivos y visualmente atractivos que permiten a tu empresa mostrar sus productos y servicios.</p>
+
+                <div class="about-gallery">
+                    <img src="img/img-9.jpg" alt="">
+                    <img src="img/img-13.jpg" alt="">
+                    <img src="img/img-17.jpg" alt="">
+                </div>
+
+                <div class="about-more">
+                    <button>Leer más</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section class="our-projects" id="servicios">
+            <div class="skew-arriba"></div>
+            <div class="deg-background"></div>
+
+            <div class="ejeZproject">
+                <div class="container-project">
+                    <div class="project-title">
+                        <h2>Nuestros Proyectos</h2>
+                        <hr>
+                    </div>
+
+                    <div class="project-img">
+                        <img src="img/theme-1.png">
+                        <img src="img/theme-2.png">
+                        <img src="img/theme-3.png">
+                        <img src="img/theme-4.png">
+                        <img src="img/theme-5.png">
+                        <img src="img/theme-6.png">
+                        <img src="img/theme-7.png">
+                        <img src="img/theme-8.png">
+                        <img src="img/theme-9.png">
+                        <img src="img/theme-10.png">
+                    </div>
+
+                    <div class="skew-abajo"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS -->
+        <section class="testimonios" id="testimonios">
+            <div class="testimonios-title">
+                <h2>Testimonios</h2>
+                <hr>
+            </div>
+
+            <div class="box-testimonio">
+
+                <div class="card-testimonio">
+                    <div class="card-img">
+                        <img src="img/peaple-1.jpg">
+                    </div>
+                    <div class="testimonio-text">
+                        <h4>Amata Castillo</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </div>
+
+                <div class="card-testimonio">
+                    <div class="card-img">
+                        <img src="img/peaple-2.jpg">
+                    </div>
+                    <div class="testimonio-text">
+                        <h4>Clara Smilla</h4>
+                        <p>"In a gravida enim. Ut nunc tortor, viverra et leo ut."</p>
+                    </div>
+                </div>
+
+                <div class="card-testimonio">
+                    <div class="card-img">
+                        <img src="img/peaple-3.jpg">
+                    </div>
+                    <div class="testimonio-text">
+                        <h4>Oscar Muñoz - Fundador</h4>
+                        <p>"Sed pulvinar neque semper quam ultricies placerat."</p>
+                    </div>
+                </div>
+
+                <div class="card-testimonio">
+                    <div class="card-img">
+                        <img src="img/peaple-4.jpg">
+                    </div>
+                    <div class="testimonio-text">
+                        <h4>Roberto Pérez</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contacto">
+
+        <div class="deg-footer"></div>
+        <div class="footer-content">
+
+            <div class="footer-title">
+                <h2>Formulario de Contacto</h2>
+                <hr>
+            </div>
+
+            <div class="formulario-content">
+                <form id="formulario">
+
+                    <label for="use">Nombre</label>
+                    <input type="text" id="use" name="use" placeholder="Ingresa tu nombre">
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+
+                    <label for="message">Escribe tu mensaje</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <div class="send">
+                        <button>Enviar</button>
+                    </div>
+
+                    <div class="mensaje-form">
+                        <p>Escríbenos un mensaje y te responderemos lo antes posible.</p>
+                    </div>
+
+                    <div class="sicialmedia">
+                        <a href="#"><img src="img/social media/facebook.png"></a>
+                        <a href="#"><img src="img/social media/instagram.png"></a>
+                        <a href="#"><img src="img/social media/twitter.png"></a>
+                        <a href="#"><img src="img/social media/youtube.png"></a>
+                        <a href="https://api.whatsapp.com/send?phone=698118478" target="_blank">
+                            <img src="img/social media/whatsapp.png">
+                        </a>
+                    </div>
+
+                </form>
+
+                <div class="footer-text">
+                    <p>&copy; Página Web 2 - 2023 | Todos los derechos reservados.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SOLO UNA VEZ -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
